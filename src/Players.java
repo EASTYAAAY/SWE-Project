@@ -9,7 +9,7 @@ public class Players {
 	{
 		this.name = n;
 		this.moves = m;
-		playlist.add(this); 
+		PlayList.add(this); 
 	}
 
 	public getPlayer()
