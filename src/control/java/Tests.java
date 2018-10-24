@@ -1,6 +1,4 @@
-import static org.junit.jupiter.api.Assertions.*;
-
-package control.java; 
+import static org.junit.jupiter.api.Assertions.*; 
 
 
 class Tests {
