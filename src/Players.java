@@ -9,5 +9,11 @@ public class Players {
 		this.name = n;
 		this.moves = m;
 	}
-//
+
+	public getPlayer()
+	{
+		return this.name;
+	}
+	
+	
 }
