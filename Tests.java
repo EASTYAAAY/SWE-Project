@@ -1,11 +1,13 @@
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.Test;
-
 class Tests {
 
-	@Test
-	void test() {
+	// test cases
+	// one
+	@org.junit.jupiter.api.Test
+	
+	void test() 
+	{
 		fail("Not yet implemented");
 	}
 
