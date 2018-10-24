@@ -9,9 +9,13 @@ public class control {
 	
 	
 	
-	
 	public control() {
 		
 	}
-
+	public boolean ValidPlayers() {
+		if(PlayList.length < 2 && PlayList.length > 5) {
+			return true; 
+		}
+		return false; 
+	}
 }
