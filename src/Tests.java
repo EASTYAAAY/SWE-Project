@@ -9,8 +9,14 @@ class Tests {
 	
 	void test() 
 	{
-		fail("Not yet implemented");
-		AssertEquals(false, ValidPlayers()); 
+		//ctrl.ValidPlayers();
+		control ctrl = new control(); 
+		
+		
+		
+		
+		//fail("Not yet implemented");
+		assertEquals(true, ctrl.ValidPlayers() ); 
 	}
 
 }
