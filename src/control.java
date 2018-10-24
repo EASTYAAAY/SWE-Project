@@ -1,11 +1,13 @@
 import java.util.List; 
-import player.java; 
+
 
 
 
 public class control {
 	
 	List <Players> Playlist;
+	int numplayers; 
+	
 	
 	
 	
@@ -13,9 +15,10 @@ public class control {
 		
 	}
 	public boolean ValidPlayers() {
-		if(PlayList.length < 2 && PlayList.length > 5) {
-			return true; 
+		if(numplayers < 2 && numplayers > 5) {
+			return false; 
 		}
-		return false; 
+		return true; 
 	}
 }
+
