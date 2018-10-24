@@ -1,3 +1,4 @@
+import control; 
 
 public class Players {
 	
@@ -8,6 +9,8 @@ public class Players {
 	{
 		this.name = n;
 		this.moves = m;
+		playlist.add(this); 
+		
 	}
 //
 }

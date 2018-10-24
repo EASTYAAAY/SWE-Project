@@ -1,7 +1,11 @@
-import java.util.ArrayList; 
+import java.util.List; 
+import player.java; 
+
 
 
 public class control {
+	
+	List <Players> Playlist; 
 	
 	
 	
