@@ -1,6 +1,6 @@
 import static org.junit.jupiter.api.Assertions.*;
 
-//import  
+package control.java; 
 
 
 class Tests {
@@ -12,7 +12,7 @@ class Tests {
 	void test() 
 	{
 		fail("Not yet implemented");
-		//AssertEquals(false, ValidPlayers()); 
+		AssertEquals(false, ValidPlayers()); 
 	}
 
 }
