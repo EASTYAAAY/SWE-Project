@@ -2,17 +2,17 @@ import control;
 
 public class Players {
 	
-	string name;
+	String name;
 	int moves;
 	
-	public Players(string n, int m)
+	public Players(String n, int m)
 	{
 		this.name = n;
 		this.moves = m;
-		PlayList.add(this); 
+		
 	}
 
-	public getPlayer()
+	public String getPlayer()
 	{
 		return this.name;
 	}
