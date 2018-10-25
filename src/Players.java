@@ -1,5 +1,3 @@
- 
-
 public class Players {
 	
 	String name;
@@ -17,7 +15,7 @@ public class Players {
 	{
 		return this.name;
 	}
-	
+
 	public boolean gameTurn()
 	{
 		if(moves > 2)
