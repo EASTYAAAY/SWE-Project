@@ -20,12 +20,12 @@ class Tests {
 		//assertEquals(false, train.LastMove());
 	}
 	
-	
+	@org.junit.jupiter.api.Test
 	void testss() 
 	{
 		Trains train = new Trains();
 		//@Test
-		assertEquals(true, train.LastMove());
+		assertEquals(false, train.LastMove());
 	}
 
 }
