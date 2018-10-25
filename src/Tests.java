@@ -7,12 +7,12 @@ class Tests {
 	
 	void testValidPlayer() 
 	{
-		control ctrl = new control(); 
+		control ctrl = new control();  //number of players test
 		assertEquals(true, ctrl.ValidPlayers() ); 
 	}
 	
 	@org.junit.jupiter.api.Test
-	void lastMove() 
+	void lastMove() // if last move for all players should start. 
 	{
 		Trains train = new Trains();
 		//@Test
@@ -20,7 +20,7 @@ class Tests {
 	}
 	
 	@org.junit.jupiter.api.Test
-	void validTurn() 
+	void validTurn()  // if its a valid move. 
 	{
 		Players pl = new Players(null, 0);
 		assertEquals(false, pl.gameTurn());

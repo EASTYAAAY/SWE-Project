@@ -1,7 +1,7 @@
 
 public class Trains {
 	int TrainsLeft;
-	public Trains() {
+	public Trains() { // initial trains in the start. 
 		
 		TrainsLeft = 240; 
 		
@@ -9,7 +9,7 @@ public class Trains {
 	public int Trains_Left() {
 		return TrainsLeft; 
 	}
-	public boolean LastMove() {
+	public boolean LastMove() { // last move. 
 		if (TrainsLeft > 2) {
 			return false; 
 		}else {

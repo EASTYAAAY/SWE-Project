@@ -1,19 +1,16 @@
 import java.util.List; 
 
-
-
-
 public class control {
 	
-	List <Players> Playlist;
-	int numplayers; 
-	int experience;
+	List <Players> Playlist; // initial list of players
+	int numplayers; // number of players
+	int experience; //their expereince level
 	
-	public control() {
+	public control() { //default Constructor
 		
 	}
 	
-	public boolean ValidPlayers() {
+	public boolean ValidPlayers() { // >2 and <5 players only
 		if(numplayers < 2 && numplayers > 5) {
 			return false; 
 		}

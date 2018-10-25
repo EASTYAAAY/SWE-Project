@@ -1,5 +1,5 @@
 public class Players {
-	String name;
+	String name; // their name 
 	int moves;
 	
 	public Players(String n, int m)
@@ -14,7 +14,7 @@ public class Players {
 		return this.name;
 	}
 	
-	public boolean gameTurn()
+	public boolean gameTurn() // number of moves remaining. 
 	{
 		if(moves > 2)
 			return true;
