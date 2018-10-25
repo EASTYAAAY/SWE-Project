@@ -7,6 +7,7 @@ public class control {
 	
 	List <Players> Playlist;
 	int numplayers; 
+	int experience;
 	
 	
 	
@@ -20,5 +21,11 @@ public class control {
 		}
 		return true; 
 	}
+	
+	
+	
+	
+	
+	
 }
 
