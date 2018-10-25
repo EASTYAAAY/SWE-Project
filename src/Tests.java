@@ -1,3 +1,4 @@
+import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.*; 
 
 
@@ -7,7 +8,7 @@ class Tests {
 	// one
 	@org.junit.jupiter.api.Test
 	
-	void test() 
+	void testValidPlayer() 
 	{
 		//ctrl.ValidPlayers();
 		control ctrl = new control(); 
@@ -21,11 +22,18 @@ class Tests {
 	}
 	
 	@org.junit.jupiter.api.Test
-	void testss() 
+	void lastMove() 
 	{
 		Trains train = new Trains();
 		//@Test
 		assertEquals(false, train.LastMove());
+	}
+	
+	@org.junit.jupiter.api.Test
+	void validTurn() 
+	{
+		Players pl = new Players(null, 0);
+		assertEquals(false, pl.gameTurn());
 	}
 
 }

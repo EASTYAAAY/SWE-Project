@@ -5,6 +5,7 @@ public class Players {
 	String name;
 	int moves;
 	
+	
 	public Players(String n, int m)
 	{
 		this.name = n;
@@ -17,5 +18,12 @@ public class Players {
 		return this.name;
 	}
 	
+	public boolean gameTurn()
+	{
+		if(moves > 2)
+			return true;
+		else
+			return false;
+	}
 	
 }
