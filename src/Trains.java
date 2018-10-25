@@ -21,7 +21,7 @@ public class Trains {
 		if (TrainsLeft > 2) {
 			return false; 
 		}else {
-			return true; 
-		} 
+			return true; //
+		}  
 	}
 }
