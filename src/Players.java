@@ -1,8 +1,6 @@
 public class Players {
-	
 	String name;
 	int moves;
-	
 	
 	public Players(String n, int m)
 	{
@@ -10,12 +8,12 @@ public class Players {
 		this.moves = m;
 		
 	}
-
+	
 	public String getPlayer()
 	{
 		return this.name;
 	}
-
+	
 	public boolean gameTurn()
 	{
 		if(moves > 2)

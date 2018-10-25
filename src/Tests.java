@@ -3,9 +3,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 class Tests {
-
-	
-	
 	@org.junit.jupiter.api.Test
 	
 	void testValidPlayer() 
@@ -28,5 +25,4 @@ class Tests {
 		Players pl = new Players(null, 0);
 		assertEquals(false, pl.gameTurn());
 	}
-
 }
