@@ -21,8 +21,9 @@ class Tests {
 	}
 	
 	
-	void testss() {
-Trains train = new Trains();
+	void testss() 
+	{
+		Trains train = new Trains();
 		//@Test
 		assertEquals(true, train.LastMove());
 	}
