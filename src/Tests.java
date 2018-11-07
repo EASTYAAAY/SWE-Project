@@ -22,7 +22,7 @@ class Tests {
 	@org.junit.jupiter.api.Test
 	void validTurn()  // if its a valid move. 
 	{
-		Players pl = new Players(null, 0);
+		Players pl = new Players(null, 0, "GREEN");
 		assertEquals(false, pl.gameTurn());
 	}
 }
