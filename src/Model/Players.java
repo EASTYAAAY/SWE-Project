@@ -1,3 +1,4 @@
+package Model;
 public class Players {
 	String name; // their name 
 	int moves;
