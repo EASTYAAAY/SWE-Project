@@ -1,4 +1,4 @@
-package ModelViewControler;
+package View;
 
 public class GameSetUp {
 
