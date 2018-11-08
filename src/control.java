@@ -2,7 +2,7 @@ import java.util.List;
 import Model.Players;
         
 
-public class control {
+public class control { //
 	
 	List <Players> Playlist; // initial list of players
 	int numplayers; // number of players
