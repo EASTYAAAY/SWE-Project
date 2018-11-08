@@ -1,8 +1,14 @@
 package Model;
+
+
 public class Players {
 	String name; // their name 
 	int moves;
 	String playersColor; 
+        
+        
+        
+        
 	
 	public Players(String n, int m, String color)
 	{
