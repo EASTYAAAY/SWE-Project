@@ -14,7 +14,9 @@ public class home extends javax.swing.JFrame {
 
     /** Creates new form home */
     public home() {
+        
         initComponents();
+        this.setSize(600, 600);
     }
 
     /** This method is called from within the constructor to
@@ -27,8 +29,15 @@ public class home extends javax.swing.JFrame {
     private void initComponents() {
 
         jButton1 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JSeparator();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setLocation(new java.awt.Point(22, 22));
+        getContentPane().setLayout(null);
 
         jButton1.setText("new game");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -36,25 +45,26 @@ public class home extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton1);
+        jButton1.setBounds(230, 180, 107, 29);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(216, 216, 216)
-                .addComponent(jButton1)
-                .addContainerGap(226, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(122, 122, 122)
-                .addComponent(jButton1)
-                .addContainerGap(296, Short.MAX_VALUE))
-        );
+        jLabel1.setText("Ticket To Ride");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(240, 30, 90, 16);
 
-        pack();
+        jLabel3.setText("Created By: ");
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(250, 90, 80, 16);
+
+        jLabel2.setText("Julius Garma and Mark Mialik");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(200, 110, 230, 16);
+        getContentPane().add(jSeparator1);
+        jSeparator1.setBounds(10, 130, 590, 10);
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(10, 10, 590, 300);
+
+        setBounds(0, 0, 618, 344);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -62,7 +72,6 @@ public class home extends javax.swing.JFrame {
         
         //this.setVisible(false);
         new Game().setVisible(true);
-        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
@@ -102,6 +111,11 @@ public class home extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JSeparator jSeparator1;
     // End of variables declaration//GEN-END:variables
 
 }

@@ -15,7 +15,9 @@ public class Game extends javax.swing.JFrame {
      * Creates new form Game
      */
     public Game() {
+        
         initComponents();
+        this.setSize(800, 800);
     }
 
     /**
@@ -40,6 +42,7 @@ public class Game extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setSize(new java.awt.Dimension(210, 210));
         getContentPane().setLayout(null);
 
         sf.setText("SF");
@@ -93,7 +96,7 @@ public class Game extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void sfActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sfActionPerformed
-        green.setText("Length");
+        //green.setText("Length"); // example of an action. 
 
 
         // TODO add your handling code here:

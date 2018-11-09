@@ -12,6 +12,12 @@ public class GameSetUp {
 	
 		Players p1 = new Players("ANN", "Green"); 
                 Players p2 = new Players("BOB", "Blue");
+                
+                
+                
+                
+                
+                
 	}
         
         
