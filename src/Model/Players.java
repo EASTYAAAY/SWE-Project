@@ -1,16 +1,16 @@
 package Model;
 
+import java.util.ArrayList;
+
 
 public class Players {
 	String name; // their name 
-	int moves;
 	String playersColor; 
         
-        
-        
-        
-        
 	
+        
+        
+        
 	public Players(String n, String color)
 	{
 		this.name = n;
@@ -20,14 +20,6 @@ public class Players {
 	public String getPlayer()
 	{
 		return this.name;
-	}
-	
-	public boolean gameTurn() // number of moves remaining. 
-	{
-		if(moves > 2)
-			return true;
-		else
-			return false;
 	}
 	
 }

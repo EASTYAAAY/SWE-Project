@@ -5,6 +5,7 @@
  */
 
 package View;
+import Model.Players; // for later to update names; 
 
 /**
  *

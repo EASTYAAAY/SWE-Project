@@ -4,7 +4,8 @@
  * and open the template in the editor.
  */
 package View;
-
+import Model.Players;
+import Model.destination;
 /**
  *
  * @author admin
