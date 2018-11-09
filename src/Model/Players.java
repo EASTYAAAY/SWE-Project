@@ -9,11 +9,11 @@ public class Players {
         
         
         
+        
 	
-	public Players(String n, int m, String color)
+	public Players(String n, String color)
 	{
 		this.name = n;
-		this.moves = m;
 		this.playersColor = color; 
 	}
 	

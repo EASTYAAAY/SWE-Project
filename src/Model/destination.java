@@ -9,19 +9,7 @@ package Model;
  *
  * @author admin
  */
-public class pathColor {
-    int pathlength; 
-    String destone; 
-    String Desttwo; 
-    
-    
-    
-    public pathColor(String first, String second, int length){
-        this.destone = first; 
-        this.Desttwo = second; 
-    }
-    
-    
+public class destination {
     
     
     

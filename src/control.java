@@ -19,5 +19,11 @@ public class control { //
 		return true; 
 	}
 		
+        
+        
+        public void gameturn(){
+            // the player can select which three 
+            
+        }
 }
 

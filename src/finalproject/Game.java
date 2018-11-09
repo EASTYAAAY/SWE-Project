@@ -29,10 +29,20 @@ public class Game extends javax.swing.JFrame {
 
         sf = new javax.swing.JButton();
         green = new javax.swing.JLabel();
+        jToggleButton1 = new javax.swing.JToggleButton();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jSeparator1 = new javax.swing.JSeparator();
+        jSeparator2 = new javax.swing.JSeparator();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(null);
 
-        sf.setText("sf");
+        sf.setText("SF");
         sf.setToolTipText("");
         sf.setActionCommand("");
         sf.addActionListener(new java.awt.event.ActionListener() {
@@ -40,29 +50,44 @@ public class Game extends javax.swing.JFrame {
                 sfActionPerformed(evt);
             }
         });
+        getContentPane().add(sf);
+        sf.setBounds(6, 6, 75, 29);
 
-        green.setText("jLabel1");
+        green.setText("Length");
+        getContentPane().add(green);
+        green.setBounds(250, 10, 43, 16);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(sf)
-                .addGap(50, 50, 50)
-                .addComponent(green)
-                .addContainerGap(224, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(sf)
-                    .addComponent(green))
-                .addContainerGap(265, Short.MAX_VALUE))
-        );
+        jToggleButton1.setText("NY");
+        getContentPane().add(jToggleButton1);
+        jToggleButton1.setBounds(460, 10, 60, 29);
+
+        jButton1.setText("FL");
+        getContentPane().add(jButton1);
+        jButton1.setBounds(370, 150, 75, 29);
+
+        jButton2.setText("TX");
+        getContentPane().add(jButton2);
+        jButton2.setBounds(110, 150, 75, 29);
+        getContentPane().add(jSeparator1);
+        jSeparator1.setBounds(20, 190, 530, 20);
+        getContentPane().add(jSeparator2);
+        jSeparator2.setBounds(10, 410, 530, 10);
+
+        jLabel1.setText("Player 2 name: ");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(20, 430, 100, 16);
+
+        jLabel2.setText("Player 1 name: ");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(20, 210, 100, 16);
+
+        jLabel3.setText("#ANN");
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(120, 210, 60, 16);
+
+        jLabel4.setText("#BOB");
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(120, 430, 60, 16);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -111,6 +136,15 @@ public class Game extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel green;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JSeparator jSeparator2;
+    private javax.swing.JToggleButton jToggleButton1;
     private javax.swing.JButton sf;
     // End of variables declaration//GEN-END:variables
 }
