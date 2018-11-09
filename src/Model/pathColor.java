@@ -8,22 +8,20 @@ package Model;
 /**
  *
  * @author admin
+ * 
+ * this is the color of the path that a player can get.
+ * this is the same as getting a train card. 
+ * 
  */
-public class pathColor {
+public class pathColor {  
     int pathlength; 
-    String destone; 
-    String Desttwo; 
+    String color; 
     
     
-    
-    public pathColor(String first, String second, int length){
-        this.destone = first; 
-        this.Desttwo = second; 
+    public pathColor(int length, String color){ 
+        this.color = color; 
+        this.pathlength = length; 
     }
-    
-    
-    
-    
-    
+   
     
 }

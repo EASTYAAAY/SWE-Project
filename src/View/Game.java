@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package finalproject;
+package View;
 
 /**
  *
@@ -71,7 +71,7 @@ public class Game extends javax.swing.JFrame {
         getContentPane().add(jSeparator1);
         jSeparator1.setBounds(20, 190, 530, 20);
         getContentPane().add(jSeparator2);
-        jSeparator2.setBounds(10, 410, 530, 10);
+        jSeparator2.setBounds(10, 410, 530, 12);
 
         jLabel1.setText("Player 2 name: ");
         getContentPane().add(jLabel1);
