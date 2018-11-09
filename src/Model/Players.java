@@ -7,6 +7,8 @@ public class Players {
 	String name; // their name 
 	String playersColor; 
         
+        int score; 
+        
 	
         
         

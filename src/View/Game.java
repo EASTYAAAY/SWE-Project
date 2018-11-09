@@ -6,6 +6,7 @@
 package View;
 import Model.Players;
 import Model.destination;
+import Control.GameSetUp;
 /**
  *
  * @author admin
@@ -18,7 +19,7 @@ public class Game extends javax.swing.JFrame {
     public Game() {
         
         initComponents();
-        this.setSize(800, 800);
+        this.setSize(800, 800); 
     }
 
     /**
@@ -30,7 +31,7 @@ public class Game extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        sf = new javax.swing.JButton();
+        ca = new javax.swing.JButton();
         green = new javax.swing.JLabel();
         jToggleButton1 = new javax.swing.JToggleButton();
         jButton1 = new javax.swing.JButton();
@@ -39,23 +40,23 @@ public class Game extends javax.swing.JFrame {
         jSeparator2 = new javax.swing.JSeparator();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        player1name = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setSize(new java.awt.Dimension(210, 210));
         getContentPane().setLayout(null);
 
-        sf.setText("SF");
-        sf.setToolTipText("");
-        sf.setActionCommand("");
-        sf.addActionListener(new java.awt.event.ActionListener() {
+        ca.setText("CA");
+        ca.setToolTipText("");
+        ca.setActionCommand("");
+        ca.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                sfActionPerformed(evt);
+                caActionPerformed(evt);
             }
         });
-        getContentPane().add(sf);
-        sf.setBounds(6, 6, 75, 29);
+        getContentPane().add(ca);
+        ca.setBounds(6, 6, 75, 29);
 
         green.setText("Length");
         getContentPane().add(green);
@@ -85,9 +86,9 @@ public class Game extends javax.swing.JFrame {
         getContentPane().add(jLabel2);
         jLabel2.setBounds(20, 210, 100, 16);
 
-        jLabel3.setText("#ANN");
-        getContentPane().add(jLabel3);
-        jLabel3.setBounds(120, 210, 60, 16);
+        player1name.setText("#ANN");
+        getContentPane().add(player1name);
+        player1name.setBounds(120, 210, 100, 16);
 
         jLabel4.setText("#BOB");
         getContentPane().add(jLabel4);
@@ -96,12 +97,12 @@ public class Game extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void sfActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sfActionPerformed
+    private void caActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_caActionPerformed
         //green.setText("Length"); // example of an action. 
 
 
         // TODO add your handling code here:
-    }//GEN-LAST:event_sfActionPerformed
+    }//GEN-LAST:event_caActionPerformed
 
     /**
      * @param args the command line arguments
@@ -139,16 +140,16 @@ public class Game extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton ca;
     private javax.swing.JLabel green;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JToggleButton jToggleButton1;
-    private javax.swing.JButton sf;
+    private javax.swing.JLabel player1name;
     // End of variables declaration//GEN-END:variables
 }

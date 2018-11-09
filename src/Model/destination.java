@@ -10,15 +10,17 @@ package Model;
  * @author admin
  */
 public class destination {
-    String first; //First city  
-    String Second; // Second city 
+    Cities first; //First city  
+    Cities Second; // Second city 
     int length; // number of trains that it takes. 
+    int points; // the points you get for doing this trip; 
     
     
-    public destination(String first, String sec, int len){
+    public destination(Cities first, Cities sec, int len, int points){
         this.first = first; 
         this.Second = sec; 
         this.length = len; 
+        this.points = points; 
         
     }
     

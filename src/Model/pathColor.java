@@ -16,12 +16,24 @@ package Model;
 public class pathColor {  
     int pathlength; 
     String color; 
+    Cities first; 
+    Cities second; 
+    Players owner; 
+    
+    int currenttrains; 
     
     
-    public pathColor(int length, String color){ 
+    public pathColor(String color, int length){ 
         this.color = color; 
         this.pathlength = length; 
     }
    
+    public void setOwner(Players p){ // this is the person that has 
+        this.owner = p; 
+    }
+    
+    public void setCurrentTrains(int cur){ 
+        this.currenttrains = cur;
+    }
     
 }
