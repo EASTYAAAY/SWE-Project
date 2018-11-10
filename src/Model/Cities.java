@@ -18,11 +18,13 @@ public class Cities {
     int near2Length; 
     
     
-    public Cities(String name){
+    public Cities(String name)
+    {
         this.name = name; 
     }
     
-    public void setNear1(Cities near1){
+    public void setNear1(Cities near1)
+    {
         this.near1 = near1; 
     }
     
